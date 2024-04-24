@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    box-sizing: border-box;  
+}
+body{
+    background-color: beige;
+    font-size: 100%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+.img-cabecalho{
+    height: 72px;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    margin: 5%;
+    padding: 50;
+}
+.button-enter{
+    display: flex;
+    justify-content: end;
+}
