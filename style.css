@@ -1,32 +1,41 @@
-  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body{
+body {
         width: 100%;
         height: 100%;
-        background-color: azure;
+        background-color: white;
     }
 
 
-.cabecalho{
+.cabecalho {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 25px 10%;
     margin-bottom: 75px;
 }
-.logo{
-    height: 20px 10% ;
-    justify-content: start;
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: aqua;
 }
-.list{
+
+.nav {
     display: flex;
-    column-gap: 91px;
+    column-gap: 90px;
     margin-top: 10px;
 }
-.item{
-    font-family: Arial Narrow Bold, sans-serif;
+
+
+.item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 1rem;
     color: black;
@@ -34,16 +43,115 @@ body{
 
 
 
-.button-enter{
+.button-enter {
     width: 120px;
-    height: 30px;
+    height: 40px;
 
     background: none;
     border: 2px solid #3a0413;
     border-radius: 10px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-size: 1rem;
     color: black;
+    
 }
+
+
+
+.section1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    margin-bottom: 75px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    width: 48%;
+    margin-bottom: 3rem;
+}
+
+.cardapio {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.img-sushi {
+    width: 19rem;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    margin-bottom: 75px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    flex-wrap: wrap;
+}
+
+.title2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.desc2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    width: 70%;
+    margin-bottom: 2.5rem;
+}
+
+.link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: red;
+    text-decoration: underline;
+}
+
+.peixe {
+    width: 27rem;
+}
+
+
+
